@@ -1,0 +1,17 @@
+/* Adjust time gutter (first column) */
+.rbc-label.rbc-header-gutter, .rbc-time-gutter.rbc-time-column {
+  width: 70px;
+}
+
+/* All day label in day & week*/
+.rbc-label.rbc-header-gutter {
+  font-size: .65em;
+}
+
+
+.color-tile{
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  margin-right: 4px;
+}

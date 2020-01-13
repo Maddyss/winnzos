@@ -1,0 +1,24 @@
+.rbc-event {
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.rbc-event .rbc-event-label {
+  display: none;
+}
+
+.rbc-event.rbc-event-overlap {
+  box-shadow: none !important;
+}
+
+.wzEvent {
+  padding: 2px 5px;
+  font-size: .8em;
+  border-radius: 3px;
+  height: 100%;
+}
+
+.rbc-event.rbc-event-overlap .wzEvent {
+  box-shadow: -1px 1px 5px 0px rgba(51, 51, 51, 0.5);
+}

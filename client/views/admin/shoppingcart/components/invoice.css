@@ -1,0 +1,28 @@
+
+/***
+Custimized Bootstrap Wells
+***/
+.well {
+    border: 0;
+    padding: 20px; }
+
+.well {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px; }
+
+/* Static info */
+.static-info {
+    margin-bottom: 10px; }
+.static-info .name {
+    font-size: 14px; }
+.static-info .value {
+    font-size: 14px;
+    font-weight: 600; }
+.static-info.align-reverse .name{
+    text-align: left;
+}
+.static-info.align-reverse .value {
+    text-align: right; }
