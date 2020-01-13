@@ -18,6 +18,3 @@ Pour mettre en place un serveur de test de l'application
 ###### nohup meteor --settings settings.json > logs/app.log 2>&1& ######
 ## Demarrage simple ##
 ###### meteor --settings settings.json ######
-
-Pour toute demande d'information ou autre :
-<***> ans  ans 
