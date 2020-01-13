@@ -1,4 +1,4 @@
-![Logo Winnzos](https://www.winnzos.fr/front/logo-winnzos.png)
+Projet créer il y a 3 ans sur un gitlab privée
 
 # Winnzos Web Application #
 
@@ -18,6 +18,3 @@ Pour mettre en place un serveur de test de l'application
 ###### nohup meteor --settings settings.json > logs/app.log 2>&1& ######
 ## Demarrage simple ##
 ###### meteor --settings settings.json ######
-
-Pour toute demande d'information ou autre :
-<***>
