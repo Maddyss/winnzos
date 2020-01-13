@@ -1,0 +1,75 @@
+/*
+BOOTSTRAP
+*/
+/*
+FOOT-AWESOME
+*/
+form.my-form .field { display: inline-block; margin-right: 14px; }
+form.my-form .field label { color: #fff; }
+form.my-form .field.text { padding: 15px; background: #fff; border-radius: 20px; position: relative; top: -3px; }
+form.my-form .field.text input { border: none; background: none; height: 26px; }
+form.my-form .field.select { position: relative; cursor: pointer; padding: 15px; background: #fff; border-radius: 20px; }
+form.my-form .field.select input { cursor: pointer; border: none; background: none; }
+form.my-form .field.select::after { font: normal normal normal 14px/1 FontAwesome; font-size: 24px; color: #ea212e; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\f078"; }
+form.my-form .field.select .select-dropdown { list-style: none; padding: 15px 10px; background: #fff; border-radius: 20px; position: absolute; top: 57px; left: 0; width: 100%; z-index: 999; -moz-box-shadow: 0px 2px 2px 0px #656565; -webkit-box-shadow: 0px 2px 2px 0px #656565; -o-box-shadow: 0px 2px 2px 0px #656565; box-shadow: 0px 2px 2px 0px #656565; filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=2); }
+form.my-form .field.select .select-dropdown li { padding: 5px; }
+form.my-form .field.select .select-dropdown li:hover { background: #ea212e; color: #fff; }
+form.my-form .field.slider label { margin-right: 20px; }
+form.my-form .field.slider .slider-block { display: inline-block; position: relative; top: 3px; margin-right: 10px; }
+form.my-form .field.slider input { border: none; background: none; color: #fff; width: 50px; font-weight: bold; }
+form.my-form .field.button button, form.my-form .field.button input[type=button] { border: none; padding: 15px; background: #fff; border-radius: 20px; font-weight: normal; }
+form.my-form .field.button button i.fa, form.my-form .field.button input[type=button] i.fa { font-size: 24px; }
+
+#breadcrumb { margin-bottom: 20px; }
+
+#content { font-size: 13px; }
+#content .sub-heading-1 { color: #585858; }
+
+#main-block { padding-right: 15px; }
+#main-block .user-pic { float: left; display: inline-block; margin: 0 15px 5px 0; }
+#main-block .user-pic img { position: relative; display: block; width: 167px; height: 167px; border-radius: 84px; margin: 0 auto; z-index: 2; }
+#main-block .user-pic .certified { display: inline-block; padding: 15px 10px 15px 40px; background: #2dac2a url(../../front/cockade.png) 8px center no-repeat; color: #fff; position: relative; z-index: 1; top: -10px; }
+#main-block .description { color: #000; margin-top: 50px; line-height: 18px; }
+
+#contact-buttons { position: absolute; top: 30px; right: 0; }
+
+#calendar-slider { margin-left: 15px; }
+#calendar-slider .heading-1 { margin-bottom: 30px; }
+#calendar-slider .control { display: inline-block; width: 5%; color: #565455; font-size: 24px; margin-top: 25px; text-align: center; }
+#calendar-slider .slides { display: inline-block; width: 89%; vertical-align: top; }
+#calendar-slider .slides .day-block-container { vertical-align: top; display: inline-block; width: 24.5%; padding: 0 10px; }
+#calendar-slider .slides .day-block-container .day-block { border: 1px solid #e0e0e0; text-align: center; }
+#calendar-slider .slides .day-block-container .day-block .heading { padding: 5px 10px; background: #e0e0e0; }
+#calendar-slider .slides .day-block-container .day-block .content { padding: 15px; height: 120px; }
+#calendar-slider .slides .day-block-container .day-block .content ul { padding: 0; list-style: none; }
+#calendar-slider .slides .day-block-container .day-block .content ul li { padding: 3px 0 2px; }
+#calendar-slider .slides .day-block-container .day-block .content ul li a { color: #585858; }
+#calendar-slider .slides .day-block-container .day-block.full { border-color: #ea212e; }
+#calendar-slider .slides .day-block-container .day-block.full .heading { background: #ea212e; color: #fff; }
+#calendar-slider .slides .day-block-container .day-block.full .slash { height: 100px; border-left: 2px solid #e0e0e0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); position: relative; left: 25px; top: 20px; }
+
+#rdv-infos { margin-top: 35px; margin-left: 50px; }
+#rdv-infos p { padding: 2px 0; }
+#rdv-infos p .label { color: #ea212e; font-size: 13px; font-weight: normal; }
+
+#products { background: #f4f4f4; margin-top: 20px; margin-bottom: 20px; }
+#products .heading-1 { margin: 30px 0; padding: 0; }
+#products ul { padding: 0 0 40px 70px; color: #ea212e; list-style-position: inside; }
+#products ul li { margin-bottom: 3px; }
+#products ul li span { color: #000; }
+
+#avis-title i { font-size: 16px; color: #f4f4f4; }
+#avis-title i.full { color: #ffda44; }
+#avis-title .counter { font-size: 13px; color: #000; background: #e0e0e0; font-family: "Questrial", Questrial, Helvetica, Arial, sans-serif; padding: 5px; font-weight: normal; }
+
+#articles { padding-right: 30px; }
+#articles .article { margin: 30px 0 0; }
+#articles .article img { float: left; margin: 0 10px 0 0; }
+#articles .article .heading { font-size: 13px; color: #000; padding: 0; margin: 0 0 20px 0; }
+#articles .article .summary a.read-article { color: #000; }
+
+#avis { padding-left: 30px; }
+#avis .avis { margin: 30px 0 0; }
+#avis .avis .text { color: #000; margin-bottom: 30px; }
+
+#content { background-color: #ffffff }

@@ -1,0 +1,57 @@
+parser: babel-eslint
+globals:
+  browser: true
+  window: true
+  document: true
+  FormData: true
+  Image: true
+  fetch: true
+  meteor: true
+ecmaFeatures:
+  classes: true
+settings:
+  import/core-modules:
+    - meteor/meteor
+    - meteor/mongo
+    - meteor/tracker
+    - meteor/accounts-base
+    - meteor/accounts-password
+    - meteor/alanning:roles
+    - meteor/meteorhacks:fast-render
+    - meteor/meteorhacks:subs-manager
+    - meteor/kadira:flow-router-ssr
+    - meteor/okgrow:analytics
+    - meteor/gadicohen:robots-txt
+    - meteor/gadicohen:sitemaps
+    - meteor/kadira:dochead
+    - meteor/meteorhacks:picker
+    - meteor/dburles:collection-helpers
+    - meteor/percolate:migrations
+    - meteor/reywood:publish-composite
+    - meteor/aldeed:simple-schema
+    - meteor/aldeed:collection2
+    - meteor/check
+    - meteor/mdg:validated-method
+    - meteor/tunifight:loggedin-mixin
+    - meteor/didericis:callpromise-mixin
+    - meteor/rlivingston:simple-schema-mixin
+    - meteor/email
+    - meteor/http
+    - meteor/percolate:synced-cron
+    - meteor/ultimatejs:tracker-react
+  import/resolver:
+    meteor:
+      extensions:
+        - .jsx
+        - .js
+plugins:
+  - meteor
+  - class-property
+extends:
+  - eslint:recommended
+  - airbnb
+  - 'plugin:meteor/recommended'
+rules:
+  # Removed or modified too strict rules
+  # Disable PropTypes only for any
+  react/forbid-prop-types: [2, { forbid: ['any'] }]

@@ -1,0 +1,48 @@
+/*
+BOOTSTRAP
+*/
+/*
+FOOT-AWESOME
+*/
+form.my-form .field { display: inline-block; margin-right: 14px; }
+form.my-form .field label { color: #fff; }
+form.my-form .field.text { padding: 15px; background: #fff; border-radius: 20px; position: relative; top: -3px; }
+form.my-form .field.text input { border: none; background: none; height: 26px; }
+form.my-form .field.select { position: relative; cursor: pointer; padding: 15px; background: #fff; border-radius: 20px; }
+form.my-form .field.select input { cursor: pointer; border: none; background: none; }
+form.my-form .field.select::after { font: normal normal normal 14px/1 FontAwesome; font-size: 24px; color: #ea212e; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\f078"; }
+form.my-form .field.select .select-dropdown { list-style: none; padding: 15px 10px; background: #fff; border-radius: 20px; position: absolute; top: 57px; left: 0; width: 100%; z-index: 999; -moz-box-shadow: 0px 2px 2px 0px #656565; -webkit-box-shadow: 0px 2px 2px 0px #656565; -o-box-shadow: 0px 2px 2px 0px #656565; box-shadow: 0px 2px 2px 0px #656565; filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=2); }
+form.my-form .field.select .select-dropdown li { padding: 5px; }
+form.my-form .field.select .select-dropdown li:hover { background: #ea212e; color: #fff; }
+form.my-form .field.slider label { margin-right: 20px; }
+form.my-form .field.slider .slider-block { display: inline-block; position: relative; top: 3px; margin-right: 10px; }
+form.my-form .field.slider input { border: none; background: none; color: #fff; width: 50px; font-weight: bold; }
+form.my-form .field.button button, form.my-form .field.button input[type=button] { border: none; padding: 15px; background: #fff; border-radius: 20px; font-weight: normal; }
+form.my-form .field.button button i.fa, form.my-form .field.button input[type=button] i.fa { font-size: 24px; }
+
+#content { font-size: 13px; padding-bottom: 0; }
+#content .sub-heading-1 { color: #585858; margin-bottom: 30px; }
+
+.result { background: #fff; padding: 20px; border-radius: 20px; margin: 15px; margin-left: 0; overflow: auto; border: 2px solid #fff; }
+.result.alt { margin-left: 15px; margin-right: 0; }
+.result img { float: left; margin-right: 20px; width: 167px; height: 167px; border-radius: 84px; }
+.result .score { float: right; }
+.result .score i { font-size: 14px; color: #f4f4f4; }
+.result .score i.full { color: #ffda44; }
+.result .heading { font-size: 17px; margin: 0; padding: 0; }
+.result .heading a { color: #000; }
+.result .spec { font-size: 12px; margin-bottom: 22px; }
+.result .description { margin-bottom: 22px; }
+.result .description a { color: #000; }
+.result .address { margin-bottom: 22px; color: #000; }
+.result:hover { border-color: #ea212e; -moz-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0); -webkit-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0); -o-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0); box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0); filter: progid:DXImageTransform.Microsoft.Shadow(color=rgba(0, 0, 0, .75), Direction=180, Strength=13); }
+.description { text-decoration: none !important; }
+.result .buttons a { margin-right: 5px; }
+
+#pagination { text-align: center; background: #fff; font-size: 10px; padding: 15px; margin-top: 40px; }
+#pagination .pagin { color: #000; }
+#pagination .pagin i { color: #ea212e; }
+#pagination .more-button { display: inline-block; padding: 10px 20px; margin: 0 20px; border: 1px solid #585858; border-radius: 10px; color: #ea212e; text-decoration: none; }
+#pagination .more-button:hover { background: #585858; color: #fff; }
+
+#contact-support { margin-top: 0; }

@@ -1,0 +1,23 @@
+<h1>Rejet de paiement pour votre commande</h1>
+
+Nous vous informons que le paiement de la commande suivante a été refusé.
+
+Total HT : {{order.totalHt}}
+Total TTC : {{order.totalTtc}}
+
+<table>
+    <thead>
+        <th>
+        <td>Nom</td>
+        <td>Prix HT</td>
+        <td>Prix TTC</td>
+    </th>
+    </thead>
+    {{#each item in order.items}}
+        <tr>
+            <td>{{item.name}}</td>
+            <td>{{item.priceHt}}</td>
+            <td>{{item.priceTtc}}</td>
+        </tr>
+    {{/each}}
+</table>

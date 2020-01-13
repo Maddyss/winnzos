@@ -1,0 +1,12 @@
+{
+  "ecmaVersion": 6,
+  "libs": [],
+  "loadEagerly": [
+    "imports/**/*.js",
+    "imports/**/*.jsx"
+  ],
+  "dontLoad": [
+    ".meteor",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,33 @@
+@keyframes mFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes mSpinning {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotatez(360deg);
+  }
+}
+
+.Spinner {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  animation: mFadeIn .3s ease-in-out;
+}
+
+.Spinner .fa {
+  color: #ea212e;
+  font-size: 2em;
+  animation: mSpinning 2s linear infinite;
+}

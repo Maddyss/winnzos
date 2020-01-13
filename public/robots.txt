@@ -1,0 +1,31 @@
+Sitemap: https://www.winnzos.fr/sitemaps.xml
+Sitemap: https://www.winnzos.fr/SiteMapsBretagne.xml
+Sitemap: https://www.winnzos.fr/SiteMapsNewAquitaine.xml
+Sitemap: https://www.winnzos.fr/SiteMapsPaysLoire.xml
+User-agent: *
+Disallow: /sockjs/
+
+#Crawlers
+User-agent: AhrefsBot
+User-agent: BacklinkCrawler
+User-agent: bdbrandprotect
+User-agent: BPImageWalker
+User-agent: Ezooms
+User-agent: findlinks
+User-agent: Gigabot
+User-agent: HTTrack
+User-agent: HTTrack 3.0
+User-agent: ia_archiver
+User-agent: LinkWalker
+User-agent: MJ12bot/v1.4.3
+User-agent: MJ12bot
+User-agent: Net Vampire
+User-agent: Python-urllib
+User-agent: rogerbot
+User-agent: Sogou web spider
+User-agent: Sosospider
+User-agent: spbot
+User-agent: Updownerbot
+User-agent: semalt.com
+User-agent: 008
+Disallow: /

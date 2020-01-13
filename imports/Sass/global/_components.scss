@@ -1,0 +1,11 @@
+// Global settings
+@import '_variables';              
+@import 'components/_mixins';
+
+@import 'components/_reset-general';  
+    
+// Material Desing Components
+@import 'components/_md';
+
+// Apply flat UI colors to all components
+@import 'components/_colors';

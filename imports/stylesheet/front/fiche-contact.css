@@ -1,0 +1,47 @@
+/*
+BOOTSTRAP
+*/
+/*
+FOOT-AWESOME
+*/
+main { font-size: 13px; }
+
+#chat-section { color: #000; margin-bottom: 50px; }
+
+.user-pic { display: inline-block; margin-bottom: 15px; }
+.user-pic img { position: relative; display: block; width: 167px; height: 167px; border-radius: 84px; margin: 0 auto; z-index: 2; }
+.user-pic .certified { display: inline-block; padding: 15px 10px 15px 40px; background: #2dac2a url(../img/cockade.png) 8px center no-repeat; color: #fff; position: relative; z-index: 1; top: -10px; }
+
+.pro-info { overflow: auto; margin-bottom: 15px; }
+.pro-info::before { position: relative; display: block; float: left; margin-right: 10px; width: 30px; text-align: center; font: normal normal normal 14px/1 FontAwesome; font-size: 24px; color: #ea212e; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.pro-info.address::before { top: 2px; content: "\f277"; }
+.pro-info.email::before { content: "\f003"; }
+.pro-info.email p { position: relative; top: 5px; }
+.pro-info.email p a { color: #000; }
+.pro-info.hours::before { top: 2px; content: "\f017"; }
+.pro-info p { margin: 0; margin-bottom: 3px; padding: 0; }
+
+#services .title { display: inline-block; padding: 5px; color: #fff; font-size: 10px; background: #21a5ea; }
+#services .title i { font-size: 20px; }
+#services .title span { position: relative; top: -3px; }
+#services .list { padding: 0; color: #ea212e; list-style-position: inside; }
+#services .list li { margin-bottom: 3px; }
+#services .list li span { color: #000; }
+
+.info .label { color: #585858; display: inline-block; width: 120px; text-align: left; font-weight: normal; font-size: 13px; }
+.info .browsers i { font-size: 24px; color: #e0e0e0; margin-right: 10px; }
+.info .browsers i.selected { color: #ea212e; }
+
+#chat { border: 3px solid #e0e0e0; border-radius: 2px; margin: 0 25px; }
+#chat .heading { text-align: center; padding: 15px; background: #ea212e; }
+#chat .heading .heading-1 { padding: 0; margin: 0 0 20px 0; }
+#chat .heading .status { font-size: 19px; color: #fff; font-style: italic; }
+#chat .messages .message { padding: 15px; }
+#chat .messages .message.alt { background-color: #e0e0e0; }
+#chat .messages .message .info { color: #585858; }
+#chat .messages .message p { margin-top: 15px; font-weight: bold; }
+#chat .text-field { position: relative; padding-right: 40px; }
+#chat .text-field textarea { border: none; background: #fff; display: block; width: 100%; height: 60px; padding: 15px; color: #000; }
+#chat .text-field button { position: absolute; bottom: 3px; right: 0; border: none; background: none; font-size: 24px; color: #585858; }
+
+#actions { padding: 20px; background: #e0e0e0; text-align: center; }

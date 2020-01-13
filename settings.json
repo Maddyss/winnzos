@@ -1,0 +1,32 @@
+{
+  "public": {
+    "analyticsSettings": {
+      "Google Analytics": {
+        "trackingId": "***"
+      }
+    }
+  },
+  "private": {
+    "oAuth": {
+      "facebook": {
+        "clientId": "",
+        "secret": ""
+      },
+      "google": {
+        "clientId": "***",
+        "secret": "***"
+      }
+    },
+    "mercanet": {
+      "callBackUrl": "https://www.winnzos.fr/mercanet/callback",
+      "merchantId": "***",
+      "paymentUrl": "https://payment-webinit.simu.mercanet.bnpparibas.net/paymentInit",
+      "secretKey": "***",
+      "keyVersion": 1,
+      "interfaceVersion": "HP_2.9"
+    },
+    "applicationUrl": "http://localhost:3000/",
+    "delayBeforeSendingReminderEmail": 600,
+    "checkExpiredSubscriptionsTimeout": 86400
+  }
+}
