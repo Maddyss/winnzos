@@ -19,7 +19,7 @@
     "eslint-plugin-react": "^6.2.2"
   },
   "dependencies": {
-    "bcrypt": "^0.8.7",
+    "bcrypt": "^5.0.0",
     "bot-dialog-manager": "^1.1.2",
     "botbuilder": "^3.5.4",
     "chart.js": "^1.1.1",
